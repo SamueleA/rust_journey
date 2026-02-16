@@ -46,6 +46,7 @@ fn main() {
                 println!("There are no employees in that department");
             } else {
                 println!("The employees of that department are:");
+                employees.sort();
                 for employee in employees {
                     println!("- {}", employee);
                 }
@@ -66,8 +67,9 @@ fn main() {
                 println!("No employee found");
             }
 
-            for (department, employees) in employees_by_department.iter() {
+            for (department, employees) in employees_by_department.iter_mut() {
                 println!("{department}");
+                employees.sort();
                 for employee in employees {
                     println!("- {employee}");
                 }
