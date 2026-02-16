@@ -11,6 +11,10 @@ name = "median_mode"
 version = "0.1.0"
 
 [[package]]
+name = "pig_latin"
+version = "0.1.0"
+
+[[package]]
 name = "rustlings"
 version = "0.0.0"
 
