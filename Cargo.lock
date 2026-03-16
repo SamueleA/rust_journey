@@ -11,6 +11,10 @@ name = "fibonacci"
 version = "0.1.0"
 
 [[package]]
+name = "long_division"
+version = "0.1.0"
+
+[[package]]
 name = "median_mode"
 version = "0.1.0"
 
